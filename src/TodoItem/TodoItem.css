@@ -1,0 +1,44 @@
+.TodoItem .done {
+    text-decoration: line-through;
+}
+.TodoItem {
+    width: 600px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    margin:20px 0px;
+    border-radius: 14px;
+    box-shadow: 1px 2px 5px 1px rgba(1,1,1,0.3);
+    background: white;
+    position: relative;
+}
+.TodoItem p {
+    margin: 8px;
+}
+.TodoItem span {
+    font-size: 12px;
+    margin: 8px;
+    padding: 4px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.TodoItem .importanceLevel {
+    font-size: 20px;
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Centrar verticalmente */
+    left: 70px;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    transform: translate(0%, -100%); 
+    cursor: default;
+}
+
+@media (max-width: 600px) {
+    .TodoItem {
+        width: 300px;
+    }
+}

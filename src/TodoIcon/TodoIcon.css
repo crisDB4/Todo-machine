@@ -1,0 +1,11 @@
+
+.Icon-svg {
+    width: 24px;
+    height: 24px;
+}
+.Icon-container-check:hover .Icon-svg{
+    fill: #28B463;
+}
+.Icon-container-delete:hover .Icon-svg{
+    fill: #E74C3C;
+}

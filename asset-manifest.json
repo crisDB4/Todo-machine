@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Todo-machine/static/css/main.362caed7.css",
+    "main.js": "/Todo-machine/static/js/main.debfc7e7.js",
+    "static/media/UbuntuMono-Regular.ttf": "/Todo-machine/static/media/UbuntuMono-Regular.b36e40ad575cc6d61071.ttf",
+    "index.html": "/Todo-machine/index.html",
+    "static/media/delete.svg": "/Todo-machine/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/Todo-machine/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.362caed7.css.map": "/Todo-machine/static/css/main.362caed7.css.map",
+    "main.debfc7e7.js.map": "/Todo-machine/static/js/main.debfc7e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.362caed7.css",
+    "static/js/main.debfc7e7.js"
+  ]
+}
